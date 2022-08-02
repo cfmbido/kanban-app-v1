@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.groupContainer {
+  flex: none;
+  width: 326px;
+  height: fit-content;
+  padding: 10px;
+}
+
+.groupTitle {
+  width: fit-content;
+  padding: 5px;
+  font-size: smaller;
+}
